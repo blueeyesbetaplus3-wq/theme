@@ -1,0 +1,159 @@
+@import url("../../pmahomme/jquery/jquery-ui.css");
+
+.ui-widget {
+  color: #f7f7fc;
+  font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+}
+
+.ui-widget-content,
+.ui-widget-header {
+  color: #f7f7fc;
+  background: #222238;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ui-widget-header {
+  background: rgba(181, 165, 255, 0.08);
+  font-weight: 650;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  color: #b8b8cc;
+  background: #2a2a42;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  font-weight: 500;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  color: #fff;
+  background: #35354f;
+  border-color: #9b8afb;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  color: #fff;
+  background: #393552;
+  border-color: #b5a5ff;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight {
+  color: #fff1c8;
+  background: #4a3e2d;
+  border-color: rgba(240, 200, 121, 0.42);
+}
+
+.ui-state-error,
+.ui-widget-content .ui-state-error {
+  color: #ffdbe1;
+  background: #522b37;
+  border-color: #b84d69;
+}
+
+.ui-widget-overlay {
+  background: #080811;
+  opacity: 0.78;
+}
+
+.ui-dialog {
+  padding: 0.35rem;
+  background: #222238;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 0.8rem;
+  box-shadow: 0 22px 54px rgba(0, 0, 0, 0.38);
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  padding: 0.65rem 0.8rem;
+  border-radius: 0.6rem;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  background: transparent;
+  border: 0;
+}
+
+.ui-dialog .ui-dialog-content {
+  padding: 1rem;
+  background: transparent;
+  border: 0;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.8rem 0;
+  border-color: rgba(255, 255, 255, 0.085);
+}
+
+.ui-autocomplete,
+.ui-menu {
+  max-height: 18rem;
+  overflow-y: auto;
+  color: #f7f7fc;
+  background: #222238;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 0.6rem;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  padding: 0.45rem 0.7rem;
+  color: #b8b8cc;
+}
+
+.ui-menu .ui-state-active {
+  margin: 0;
+  color: #fff;
+  background: rgba(181, 165, 255, 0.14);
+  border: 0;
+  border-radius: 0.35rem;
+}
+
+.ui-datepicker {
+  width: 18rem;
+  padding: 0.55rem;
+  background: #222238;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 0.65rem;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+.ui-datepicker .ui-datepicker-header {
+  padding: 0.45rem;
+  background: rgba(181, 165, 255, 0.08);
+  border: 0;
+  border-radius: 0.45rem;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+  padding: 0.35rem;
+  text-align: center;
+  border-radius: 0.35rem;
+}
+
+.ui-datepicker .ui-state-default {
+  text-align: center;
+}
+
+.ui-progressbar {
+  height: 1rem;
+  background: #171725;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 99px;
+}
+
+.ui-progressbar .ui-progressbar-value {
+  background: linear-gradient(90deg, #f078ae, #9b8afb);
+  border: 0;
+  border-radius: 99px;
+}
